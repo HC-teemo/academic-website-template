@@ -1,0 +1,106 @@
+- title: "Lynx: A Graph Query Framework for Multiple Heterogeneous Data Sources"
+  image: Lynx.jpg
+  description: Lynx is a graph query framework designed to simplify querying graph data by converting complex statements into basic graph operations. Instead of directly connecting to data sources, Lynx retrieves data through user-implemented interfaces for graph operations. It excels in processing graph queries on diverse data sources and serves as a generic framework for developing graph query engines.
+  authors: Chuan Hu, Zihao Zhao, Zhihong Shen
+  highlight: true
+  link:
+    url: http://dx.doi.org/10.14778/3611540.3611587
+    display: VLDB (2023)
+  video: https://www.youtube.com/watch?v=bFhMIkksMl8
+  pdf: lynx.pdf
+  bib: "@article{shen2023lynx,
+    title={Lynx: A Graph Query Framework for Multiple Heterogeneous Data Sources},
+    author={Shen, Zhihong and Hu, Chuan and Zhao, Zihao},
+    journal={Proceedings of the VLDB Endowment},
+    volume={16},
+    number={12},
+    pages={3926--3929},
+    year={2023},
+    publisher={VLDB Endowment}
+  }"
+
+- title: "A Key-Value Based Approach to Scalable Graph Database"
+  image: kv.png
+  description: An increasing number of applications are modeling data asproperty graphs. In various scenarios, the scale of data can differ signifi-cantly, ranging from thousands of nodes/relationships to tens of billionsof nodes/relationships. While distributed native graph databases cancater to the management and query requirements of large-scale graphdata sets, they tend to be relatively cumbersome for small-scale datasets. This motivates us to develop a lightweight, scalable graph databasecapable of handling data across different scales. In this paper, we pro-pose a method for constructing a graph database based on key-valuestorage, outlining the process of mapping graph data to key-value stor-age and executing graph queries on the key-value storage. We imple-mented and opensourced a graph database based on RocksDB, namelyKVGDB, which can manage data in an embedded fashion and be eas-ily scaled to distributed environments. Experimental results demonstratethat KVGDB can effectively meet the management and query require-ments of graph data sets, even at the scale of billions of nodes/relationships. 
+  authors: Zihao Zhao, Chuan Hu, Zhihong Shen, Along Mao, Hao Ren 
+  highlight: true
+  link:
+    url: http://dx.doi.org/10.1007/978-3-031-39847-6_26
+    display: DEXA (2023)
+  pdf: paper_1131.pdf
+  bib: "@inproceedings{zhao2023key,
+  title={A Key-Value Based Approach to Scalable Graph Database},
+  author={Zhao, Zihao and Hu, Chuan and Shen, Zhihong and Mao, Along and Ren, Hao},
+  booktitle={International Conference on Database and Expert Systems Applications},
+  pages={338--344},
+  year={2023},
+  organization={Springer}}"
+
+- title: "S2CTrans: Building a Bridge from SPARQL to Cypher"
+  # image: 
+  description: "In graph data applications, data is primarily maintained using two models: RDF (Resource Description Framework) and property graph. The property graph model is widely adopted by industry, leading to property graph databases generally outperforming RDF databases in graph traversal query performance. However, users often prefer SPARQL as their query language, as it is the W3C’s recommended standard. Consequently, exploring SPARQL-to-Property-Graph-Query-Language translation is crucial for enhancing graph query language interoperability and enabling effective querying of property graphs using SPARQL. This paper demonstrates the feasibility of translating SPARQL to Cypher for graph traversal queries using graph relational algebra. We present the S2CTrans framework, which achieves SPARQL-to-Cypher translation while preserving the original semantics. Experimental results with the Berlin SPARQL Benchmark (BSBM) datasets show that S2CTrans successfully converts most SELECT queries in the SPARQL 1.1 specification into type-safe Cypher statements, maintaining result consistency and improving the efficiency of data querying using SPARQL.KeywordsRDFProperty graphSPARQLCypher"
+  authors: Zihao Zhao, Xiaodong Ge, Zhihong Shen, Chuan Hu, Huajin Wang
+  # highlight: true
+  link:
+    url: http://dx.doi.org/10.1007/978-3-031-39847-6_33
+    display: International Conference on Database and Expert Systems Applications, 2023
+  # pdf: lynx.pdf
+  bib: "@inproceedings{zhao2023s2ctrans,
+  title={S2CTrans: Building a bridge from SPARQL to Cypher},
+  author={Zhao, Zihao and Ge, Xiaodong and Shen, Zhihong and Hu, Chuan and Wang, Huajin},
+  booktitle={International Conference on Database and Expert Systems Applications},
+  pages={424--430},
+  year={2023},
+  organization={Springer}}"
+
+- title: "SciDG: Benchmarking Scientific Dynamic Graph Queries"
+  image: scidg.png
+  description: "Dynamic graphs are increasingly being utilized in domain knowledge modeling and large-scale scientific data management. Managing dynamic graph data requires a graph database system that can handle constantly changing volumes and data versions, while maintaining an acceptable query latency related to versioning. To understand how the design of storage structures affects database performance and assist scientific application developers in finding the optimal storage structure for their dynamic graph application scenarios, we have designed an easy-to-use benchmark framework called SciDG. We also conducted a study on the latencies of five fundamental version-related queries for various scientific application scenarios using SciDG. We evaluated the performance of databases based on three distinct storage principles: Sp-DB, Dp-DB, and Tp-DB. The experimental results indicate that SciDG is a valuable tool for assessing the strengths and weaknesses of different storage structures for dynamic graphs in various scenarios. Additionally, it assists scientists in selecting the most suitable dynamic graph database system for their work."
+  authors: Chenglin Zeng, Chuan Hu, Huajin Wang, Zhihong Shen
+  highlight: true
+  link:
+    url: http://dx.doi.org/10.1145/3603719.3603724
+    display: SSDBM (2023)
+  pdf: 3603719.3603724.pdf
+  bib: "@inproceedings{zeng2023scidg,
+  title={SciDG: Benchmarking Scientific Dynamic Graph Queries},
+  author={Zeng, Chenglin and Hu, Chuan and Wang, Huajin and Shen, Zhihong},
+  booktitle={Proceedings of the 35th International Conference on Scientific and Statistical Database Management},
+  pages={1--12},
+  year={2023}}"
+
+- title: "PandaDB: An AI-Native Graph Database for Unified Managing Structured and Unstructured Data"
+  # image: 
+  description: "In many applications, data are organized as graphs (e.g., social network and smart city). There could be unstructured data on such a graph, for example, the users’ avatars and images included in a post. It is natural to think of these unstructured data as attributes of nodes or relationships. Then the users would tend to query the semantic information of unstructured data on the graph, namely hybrid queries. To meet the demand of hybrid queries, this paper introduces PandaDB, an AI-native graph database, and it has the following characteristics: (1) Unified management of unstructured data and graph data. (2) Online extracting and indexing semantic information of unstructured data. (3) Optimization of hybrid queries. The system and its concept have been verified by multiple applications based on it. Users could deploy PandaDB to support hybrid queries and data mining."
+  authors: Zihao Zhao, Zhihong Shen, Along Mao, Huajin Wang, Chuan Hu
+  # highlight: true
+  link:
+    url: http://dx.doi.org/10.1007/978-3-031-30678-5_53
+    display: International Conference on Database Systems for Advanced Applications, 2023
+  # pdf: 
+  bib: "@inproceedings{zhao2023pandadb,
+  title={PandaDB: An AI-Native Graph Database for Unified Managing Structured and Unstructured Data},
+  author={Zhao, Zihao and Shen, Zhihong and Mao, Along and Wang, Huajin and Hu, Chuan},
+  booktitle={International Conference on Database Systems for Advanced Applications},
+  pages={669--673},
+  year={2023},
+  organization={Springer}}"
+
+
+- title: "PandaDB: Intelligent Management System for Heterogeneous Data"
+  # image: 
+  # description: 
+  authors: Zhihong Shen, Zihao Zhao, Huajin Wang, Zhongxin Liu, Yuanchun Zhou
+  # highlight: true
+  link:
+    url: http://dx.doi.org/10.21655/ijsi.1673-7288.00241
+    display: International Journal of Software and Informatics 2021
+  pdf: pandadb.pdf
+  bib: "@article{shen2021pandadb,
+  title={PandaDB: Intelligent Management System for Heterogeneous Data.},
+  author={Shen, Zhihong and Zhao, Zihao and Wang, Huajin and Liu, Zhongxin and Hu, Chuan and Zhou, Chunyuan},
+  journal={Int. J. Softw. Informatics},
+  volume={11},
+  number={1},
+  pages={69--90},
+  year={2021}}"
