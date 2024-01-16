@@ -21,7 +21,7 @@
   }"
 
 - title: "MMDBench: A Benchmark for Hybrid Query in Multimodal Database"
-  image: MMDBench.jpg
+  image: mmdbench.jpg
   description: "MMDBench is a benchmark program specifically designed for evaluating the performance of hybrid query in multimodal database. It includes a data generator, a query workload, and a unified framework for system integration. The data generator can produce multimodal data in social network scenarios, and the query workload simulates typical operations of querying structured and unstructured data in social networks."
   authors: Along Mao, Chuan Hu, Chong Li, Huajin Wang, Junjian Rao, Kainan Wang, Zhihong Shen
   highlioght: true

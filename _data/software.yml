@@ -5,8 +5,7 @@
   tags: "
 <a href='https://github.com/grapheco/InteractiveGraph/releases'><img src='https://img.shields.io/github/downloads/grapheco/InteractiveGraph/total.svg?style=for-the-badge' alt='GitHub downloads'></a>
 <a href='https://github.com/grapheco/InteractiveGraph/network'><img src='https://img.shields.io/github/forks/grapheco/InteractiveGraph.svg?style=for-the-badge' alt='GitHub forks'></a>
-<a href='https://github.com/grapheco/InteractiveGraph/stargazers'><img src='https://img.shields.io/github/stars/grapheco/InteractiveGraph.svg?style=for-the-badge' alt='GitHub stars'></a>
-<a href='https://github.com/grapheco/InteractiveGraph/blob/master/LICENSE'><img src='https://img.shields.io/github/license/grapheco/InteractiveGraph.svg?style=for-the-badge' alt='GitHub license'></a>"
+<a href='https://github.com/grapheco/InteractiveGraph/stargazers'><img src='https://img.shields.io/github/stars/grapheco/InteractiveGraph.svg?style=for-the-badge' alt='GitHub stars'></a>"
   # features:
   #   - title: 1
   #     text: 2
@@ -27,7 +26,6 @@
 <a href='https://github.com/cas-bigdatalab/piflow/releases'><img src='https://img.shields.io/github/downloads/cas-bigdatalab/piflow/total.svg?style=for-the-badge' alt='GitHub downloads'></a>
 <a href='https://github.com/cas-bigdatalab/piflow/network'><img src='https://img.shields.io/github/forks/cas-bigdatalab/piflow.svg?style=for-the-badge' alt='GitHub forks'></a>
 <a href='https://github.com/cas-bigdatalab/piflow/stargazers'><img src='https://img.shields.io/github/stars/cas-bigdatalab/piflow.svg?style=for-the-badge' alt='GitHub stars'></a>
-<a href='https://github.com/cas-bigdatalab/piflow/blob/master/LICENSE'><img src='https://img.shields.io/github/license/cas-bigdatalab/piflow.svg?style=for-the-badge' alt='GitHub license'></a>
   "
   features:
     - title: Powerful

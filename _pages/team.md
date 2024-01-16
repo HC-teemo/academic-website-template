@@ -49,7 +49,7 @@ permalink: /team/
 {% for member in site.data.people %}
 
 <div class="col">
-<div class="row g-0 rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative bg-body-tertiary">
+<div class="row g-0 rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative bg-body-tertiary"  style="width:100%">
 <div class="col-4 p-4" style="display:flex;flex-direction:column;flex:1">
 <img src="/images/photo/{{ member.photo }}" width="100%" class="img-thumbnail"/>
 </div>
@@ -79,9 +79,9 @@ permalink: /team/
 {% for member in site.data.alumni %}
 
 <div class="col" >
-<div class="row g-0 rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative bg-body-tertiary">
+<div class="row g-0 rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative bg-body-tertiary" style="width:100%">
 <div class="col-4 p-4" style="display:flex;flex-direction:column;flex:1">
-<img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" class="img-fluid img-thumbnail" width="100%"/>
+<img src="/images/photo/{{ member.photo }}" class="img-fluid img-thumbnail" width="100%"/>
 </div>
 <div class="col-8 p-4 d-flex flex-column position-static">
 <h4 class="mb-0">{{ member.name }}</h4>

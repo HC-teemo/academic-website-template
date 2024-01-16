@@ -1,6 +1,7 @@
 - name: Chenglin Zeng
   degree: PhD Student
   year: 2018
+  photo: phd1.png
 
 - name: Chuan Hu
   degree: PhD Student
@@ -15,29 +16,29 @@
 - name: Along Mao
   degree: Master Student
   year: 2021
-  # field: todo
+  photo: master1.png
 
 - name: Junjian Rao
   degree: Master Student
   year: 2021
-  # field: todo
+  photo: master1.png
 
 - name: Kainan Wang
   degree: Master Student
   year: 2021
-  # field: todo
+  photo: master1.png
 
 - name: Jiawei Cai
   degree: Master Student
   year: 2022
-  # field: todo
+  photo: master1.png
 
 - name: Han Duan
   degree: Master Student
   year: 2023
-  # field: 
+  photo: master1.png
 
 - name: Siqi Liu
   degree: Master Student
   year: 2023
-  # field: Multimodal Data Benchmark
+  photo: master2.png
