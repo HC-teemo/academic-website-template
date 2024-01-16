@@ -1,6 +1,6 @@
 ---
 title: "News"
-layout: textlay
+layout: container
 sitemap: false
 permalink: /allnews.html
 ---

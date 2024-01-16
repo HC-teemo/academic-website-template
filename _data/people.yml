@@ -1,24 +1,43 @@
-- name: Student Here
-  location: Univesity Here
-  degree: Ph.D. 
-  year: 2022
+- name: Chenglin Zeng
+  degree: PhD Student
+  year: 2018
 
-- name: Student Here
-  location: Univesity Here
-  degree: Ph.D. 
+- name: Chuan Hu
+  degree: PhD Student
+  year: 2019
+  info: My research interests are in graph querying and multimodel data management.
+  photo: huchuan.jpg
+  email: huchuan@cnic.cn
+  github: https://github.com/HC-teemo
+  researchgate: https://www.researchgate.net/profile/Hu_Chuan
+
+
+- name: Along Mao
+  degree: Master Student
   year: 2021
+  # field: todo
 
-- name: Student Here
-  location: Univesity Here
-  degree: Ph.D. 
-  year: 2020
+- name: Junjian Rao
+  degree: Master Student
+  year: 2021
+  # field: todo
 
-- name: Student Here
-  location: Univesity Here
-  degree: M.S.
-  year: 2020
+- name: Kainan Wang
+  degree: Master Student
+  year: 2021
+  # field: todo
 
-- name: Student Here
-  location: Univesity Here
-  degree: B.S.
-  year: 2020
+- name: Jiawei Cai
+  degree: Master Student
+  year: 2022
+  # field: todo
+
+- name: Han Duan
+  degree: Master Student
+  year: 2023
+  # field: 
+
+- name: Siqi Liu
+  degree: Master Student
+  year: 2023
+  # field: Multimodal Data Benchmark

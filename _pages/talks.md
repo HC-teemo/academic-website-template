@@ -1,6 +1,6 @@
 ---
 title: "Talks"
-layout: gridlay
+layout: container
 sitemap: false
 permalink: /talks/
 ---

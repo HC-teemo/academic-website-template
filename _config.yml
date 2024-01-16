@@ -1,7 +1,7 @@
 # Site settings
-title: Bluejoe Lab
+title: Grapheco Lab
 email: bluejoe@cnic.cn
-description: Academic webpage of Bluejoe Lab
+description: Academic Webpage of Grapheco Lab
 baseurl: ""
 url: ""
 
@@ -12,7 +12,7 @@ url: ""
 
 # Footer info
 affiliation: >
-    Computer Network Information Center, Chinese Academy of Sciences
+    Computer Network Information Center <br/> Chinese Academy of Sciences
 
 location: >
   CAS Informatization Plaza <br/>

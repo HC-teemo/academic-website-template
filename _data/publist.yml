@@ -8,6 +8,7 @@
     display: VLDB (2023)
   video: https://www.youtube.com/watch?v=bFhMIkksMl8
   pdf: lynx.pdf
+  slides: lynx_slide.pdf
   bib: "@article{shen2023lynx,
     title={Lynx: A Graph Query Framework for Multiple Heterogeneous Data Sources},
     author={Shen, Zhihong and Hu, Chuan and Zhao, Zihao},
@@ -18,6 +19,18 @@
     year={2023},
     publisher={VLDB Endowment}
   }"
+
+- title: "MMDBench: A Benchmark for Hybrid Query in Multimodal Database"
+  image: MMDBench.jpg
+  description: "MMDBench is a benchmark program specifically designed for evaluating the performance of hybrid query in multimodal database. It includes a data generator, a query workload, and a unified framework for system integration. The data generator can produce multimodal data in social network scenarios, and the query workload simulates typical operations of querying structured and unstructured data in social networks."
+  authors: Along Mao, Chuan Hu, Chong Li, Huajin Wang, Junjian Rao, Kainan Wang, Zhihong Shen
+  highlioght: true
+  link: 
+    url: https://www.benchcouncil.org/bench2023/
+    display: Bench (2023)
+  pdf: MMDBench.pdf
+  slides: MMDBench_slides.pdf
+  # bib:
 
 - title: "A Key-Value Based Approach to Scalable Graph Database"
   image: kv.png
@@ -43,7 +56,7 @@
   # highlight: true
   link:
     url: http://dx.doi.org/10.1007/978-3-031-39847-6_33
-    display: International Conference on Database and Expert Systems Applications, 2023
+    display:  DEXA (2023)
   # pdf: lynx.pdf
   bib: "@inproceedings{zhao2023s2ctrans,
   title={S2CTrans: Building a bridge from SPARQL to Cypher},
@@ -73,10 +86,10 @@
   # image: 
   description: "In many applications, data are organized as graphs (e.g., social network and smart city). There could be unstructured data on such a graph, for example, the users’ avatars and images included in a post. It is natural to think of these unstructured data as attributes of nodes or relationships. Then the users would tend to query the semantic information of unstructured data on the graph, namely hybrid queries. To meet the demand of hybrid queries, this paper introduces PandaDB, an AI-native graph database, and it has the following characteristics: (1) Unified management of unstructured data and graph data. (2) Online extracting and indexing semantic information of unstructured data. (3) Optimization of hybrid queries. The system and its concept have been verified by multiple applications based on it. Users could deploy PandaDB to support hybrid queries and data mining."
   authors: Zihao Zhao, Zhihong Shen, Along Mao, Huajin Wang, Chuan Hu
-  # highlight: true
+  highlight: true
   link:
     url: http://dx.doi.org/10.1007/978-3-031-30678-5_53
-    display: International Conference on Database Systems for Advanced Applications, 2023
+    display: DASFAA (2023)
   # pdf: 
   bib: "@inproceedings{zhao2023pandadb,
   title={PandaDB: An AI-Native Graph Database for Unified Managing Structured and Unstructured Data},
@@ -89,7 +102,18 @@
 
 - title: "PandaDB: Intelligent Management System for Heterogeneous Data"
   # image: 
-  # description: 
+  description: "With the development of big data application, the demand of large-scale
+structured/unstructured data fusion management and analysis is becoming increasingly prominent.
+However, the differences in management, process, retrieval of structured/unstructured data brings
+challenges for fusion management and analysis. This study proposes an extended property graph
+model for heterogeneous data fusion management and semantic computing, and defines related
+property operators and query syntax. Based on the intelligent property graph model, this study
+implements PandaDB, an intelligent fusion management system for heterogeneous data. This study
+depicts the architecture, storage mechanism, query mechanism, property co-storage, AI algorithm
+scheduling, and distributed architecture of PandaDB. Test experiments and cases show that the
+co-storage mechanism and distributed architecture of PandaDB have good performance
+acceleration effects, and can be applied in some scenarios of fusion data intelligent management
+such as entity disambiguation of academic knowledge graph."
   authors: Zhihong Shen, Zihao Zhao, Huajin Wang, Zhongxin Liu, Yuanchun Zhou
   # highlight: true
   link:

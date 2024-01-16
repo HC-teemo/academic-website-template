@@ -1,6 +1,6 @@
 ---
 title: "Teaching"
-layout: gridlay
+layout: container
 sitemap: false
 permalink: /teaching/
 ---
