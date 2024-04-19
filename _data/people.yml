@@ -36,9 +36,24 @@
 - name: Han Duan
   degree: Master Student
   year: 2023
-  photo: master1.png
+  photo: duanhan.jpg
 
 - name: Siqi Liu
   degree: Master Student
   year: 2023
   photo: master2.png
+
+- name: Yutao Gao
+  degree: Master Student
+  year: 2024
+  photo: master1.png
+
+- name: Xinxiang Lin
+  degree: Master Student
+  year: 2024
+  photo: master1.png
+
+- name: Mingzhou Li
+  degree: Master Student
+  year: 2024
+  photo: master1.png
